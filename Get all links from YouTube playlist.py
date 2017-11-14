@@ -1,6 +1,5 @@
 import bs4 as bs
 import urllib.request
-from pytube import YouTube
 
 def html_parser(link):
     html_code = urllib.request.urlopen(link).read()
